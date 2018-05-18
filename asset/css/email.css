@@ -1,0 +1,34 @@
+body{
+	width: 720px;
+	margin: 10px auto;
+	font-family: Tahoma, Arial, sans-serif;
+	font-size: 13px;
+	color: #5E5E5E;
+}
+header{
+	height: 50px;
+	padding: 8px;
+	border: 1px solid #EDEDED;
+	border-bottom: 0;
+}
+header img{height: 100%;}
+.sec-wrapper{
+	padding: 10px 10px;
+	margin: 0px 0 5px 0;	
+	border: 1px solid #EEE;
+	border-radius: 3px;
+	clear: left;
+	overflow: auto;
+}
+.static-group-custom{margin: 5px 0;}
+label{font-weight:bold}
+.col{
+	float: left;
+	padding: 10px;	
+	box-sizing: border-box;
+}
+.col-3{
+	width: 25%;
+	text-align: right;
+}
+.col-9{width: 75%;}

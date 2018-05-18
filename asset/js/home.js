@@ -1,0 +1,1 @@
+$(function(){	$('#gallery').flexslider({		animation: "slide",		controlNav: true,		animationLoop: false,		slideshow: true,		start: function(slider){			$('#gallery').removeClass('loading');		}	});	$('#big-slider').camera({		alignment: 'center',		height: '400px',		loader: 'none',		time: 4000,		fx: 'random',		playPause: false,		transPeriod: 500	});})

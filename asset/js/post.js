@@ -1,0 +1,1 @@
+$(function(){$('#gallery').flexslider({animation:"slide",controlNav:false,animationLoop:false,slideshow:false,sync:'#carousel',start:function(slider){$('body').removeClass('loading');}});$('#carousel').flexslider({animation:"slide",controlNav:false,animationLoop:false,slideshow:false,itemWidth:80,itemMargin:3,asNavFor:'#gallery'});})
